@@ -1,0 +1,355 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+#pg1{
+    width: 100%;
+    height: 93.5vh;
+    background-image:url(FOTOS/home-banner.jpg.webp)  ;
+    
+}
+
+.cabeçalho{
+height: 8.3vh;
+background-color: rgb(0, 0, 0, 0.6);
+padding: 0 8%;
+display: flex;
+align-items: center;
+}
+.QDP{
+  height: 250px;
+  width: 555px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  flex-direction: column;
+}
+.alinhamentoblocopreto{ 
+    height: 24.5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    
+
+}
+.txt{
+    color: #fff;
+    font-size: 36px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.txt2{
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    text-align: center;
+
+}
+.BTNAMRL{
+    display: flex;
+    justify-content: center;
+    width: 178px;
+    height: 4.3vh;
+    background-color: #fcdc00;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 25vh;
+    position: relative;
+    text-decoration: none;
+    color: #222222;
+
+
+    
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.home{
+    padding-left: 68vh;
+    margin: 2%;
+    font: 500 12px/ 80px "Poppins", sans-serif;
+    color: #fff;
+    font-size: 13px;
+    text-decoration: none;
+}
+.palavras{
+    color: #fff;
+    font: 500 12px/ 80px "Poppins", sans-serif;
+    font-size: 13px;
+    margin: 2%;
+    text-decoration: none;
+}
+.linkbtn{
+    width: 100%;
+    position: absolute;
+    margin-top: 3vh;
+    font-size: 14px;
+    font-weight: 600;
+    
+    font-family: "Poppins", sans-serif;
+}
+
+#pg2{
+    width: 100%;
+    background-color: #f9f9ff;
+    height: 70vh;
+    
+}
+.divisaolinks{
+    height: 12vh;
+    width: 100%;
+    background-color: #f9f9ff;
+    
+}
+.link1{
+    align-items: center;
+}
+
+.organização{
+    width: 60%;
+    height: 5.6vh;
+    background-color: #fff;
+    margin-left: 20%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;;
+}
+
+.quadrofotos{
+display: flex;
+
+}
+.link1{
+    width: 79px;
+
+}
+.link2{
+    width: 123px;
+}
+.link3{
+    width: 141px;
+}
+.link4{
+    width: 122px;
+}
+
+.a1{
+    background-color: #fcdc00;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    color: black;
+    padding: 17px 30px;
+}
+
+.a2{
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    color: black;
+    padding: 17px 30px;
+}
+
+.a2:hover{
+transition: 0.5s;
+background-color: #fcdc00;
+}
+.a3{
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    color: black;
+    padding: 17px 30px;
+}
+
+.a3:hover{
+transition: 0.5s;
+background-color: #fcdc00;
+}
+.a4{
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    color: black;
+    padding: 17px 30px;
+}
+
+.a4:hover{
+transition: 0.5s;
+background-color: #fcdc00;
+}
+.foto1{
+    
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+    margin-top: 5%;
+    margin-left: 7%;
+    margin-right: 5%;
+}
+
+.foto1 img {
+    margin-bottom: 4vh;
+}
+.secaoa {
+    width: 100%;
+    background-color: #fcdc00;
+    display: flex;
+    padding: 5% 20%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.secaoa h6 {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.7;
+    color: black;
+}
+
+.Feedback {
+    height: 15vh;
+    width: 450px;
+    margin-bottom: 30px;
+}
+
+.Feedback h1 {
+    font-size: 36px;
+    color: black;
+    font-weight: 700;
+    margin-bottom: 4.5%;
+}
+
+.gosto {
+    background-color: white;
+    height: 25vh;
+    width: 555px;
+    display: flex;
+    justify-content: space-between;
+    padding: 3.5% 3.5%;
+    margin-bottom: 4%;
+}
+
+.gosto img {
+    height: 80px;
+
+}
+
+.textoavaliacao {
+    width: 76%;
+}
+
+.textoavaliacao h6 {
+    color: rgba(0, 0, 0, 0.67);
+}
+
+.textoavaliacao h2 {
+    margin-top: 4%;
+    margin-bottom: 2%;
+    font-size: 18px;
+    color: black;
+    font-weight: 700;
+}
+.secaob {
+    width: 100%;
+    display: flex;
+    background-color: #f9f9ff;
+    padding: 0% 13%;
+    padding-top: 6%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secaob2 h1 {
+    font-size: 36px;
+    color: rgba(0, 0, 0, 0.96);
+    font-weight: 600;
+    margin-bottom: 1%;
+}
+
+.secaoba2 h2 {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.96);
+    font-weight: 600;
+    margin-bottom: 4%;
+}
+
+.secaob2 h6 {
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.67);
+    transition: 0.3s;
+}
+
+.divrazoes {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 14px;
+    margin-top: 5%;
+    margin-bottom: 7%;
+}
+
+.divrazoes div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 350px;
+    height: 23vh;
+    padding: 3%;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    text-align: center;
+    transition: 0.3s;
+}
+
+.divrazoes div:hover {
+    background-color: #fcdc00;
+    cursor: pointer;
+}
+
+.divrazoes div:hover h6 {
+    color: black;
+}
+
+
+.botaoInstagram {
+    background-color: #fcdc00;
+    height: 6vh;
+    line-height: 4;
+    margin-bottom: 6%;
+}
+
+
+.imagensFinal {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+    background-color: #f9f9ff;
+    margin-top: auto;
+
+}
+
+
